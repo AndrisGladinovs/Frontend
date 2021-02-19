@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson #47 / HTTP Protocol</title>
+    <!-- <script src="./script.js" defer></script> -->
+    <!-- <script src="./modernScript.js" defer></script> -->
+    <script src="./app.js" defer></script>
+    <script src="./main.js" defer></script>
+    <style>
+        .wrapper {
+            width: 600px;
+            margin: 100 auto;
+        }
+        
+        #new_contact {
+            width: 800px;
+            margin: 30px auto;
+            align-content: center;
+        }
+        
+        #new_contact input {
+            width: 450px;
+            height: 25px;
+            margin-bottom: 7px;
+            border: 2px solid green;
+            border-radius: 5px;
+        }
+        
+        #new_contact input::last-child {
+            margin-bottom: 0px;
+        }
+        
+        #addBtn {
+            width: 90px;
+            height: 35px;
+            background-color: grey;
+            border: 2px solid black;
+            border-radius: 8px;
+            color: white;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form id="my_form" action="#" name="loginForm">
+            <input type="text" name="email" placeholder="email"><br>
+            <input type="text" name="password" placeholder="password"><br>
+            <button type="submit">registration</button>
+        </form>
+        <br>
+        <br>
+        <button id="getAllBtn">Get all contacts</button>
+        <br>
+        <form id="new_contact" action="#" name="addContact">
+            <input type="text" name="address" placeholder="address"><br>
+            <input type="text" name="description" placeholder="description"><br>
+            <input type="text" name="email" placeholder="email"><br>
+            <input type="number" name="id" placeholder="id"><br>
+            <input type="text" name="lastName" placeholder="last name"><br>
+            <input type="text" name="name" placeholder="name"><br>
+            <input type="text" name="phone" placeholder="phone"><br>
+            <button id="addBtn" type="submit">add contact</button>
+        </form>
+        <br>
+    </div>
+</body>
+
+</html>

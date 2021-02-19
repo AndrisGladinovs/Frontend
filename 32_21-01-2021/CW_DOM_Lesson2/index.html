@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Lesson 2 / EVENTS / Sobitija</title>
+    <style>
+        .one {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            display: inline-block;
+        }
+        
+        .two {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            display: inline-block;
+        }
+        
+        .wrapper {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <h2>Hello world!</h2>
+
+        <button onclick="alert('Click')">click me</button>
+        <button onclick="console.log('click')">click</button>
+    </div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one" id="three"></div>
+
+    <div class="wrapper">
+        <p class="topText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus itaque nisi a repellat rem obcaecati. Minus culpa architecto ducimus porro!
+        </p>
+        <button id="size30">change size</button>
+        <button id="size15">reset size</button>
+    </div>
+    <h1>Input</h1>
+    <p>
+        <input type="text" id="firstName" placeholder="first name">
+    </p>
+    <p>
+        <input type="text" id="lastName" placeholder="last name">
+    </p>
+    <button id="send">send</button>
+    <p id="input"></p>
+
+    <h1>On change</h1>
+    <p>Select new car</p>
+    <select id="mySelect">
+<option value="Audi">Audi</option>
+<option value="BMW">BMW</option>
+<option value="Volkswagen">Volkswagen</option>
+<option value="Mazda">Mazda</option>
+</select>
+
+    <p id="demo"></p>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

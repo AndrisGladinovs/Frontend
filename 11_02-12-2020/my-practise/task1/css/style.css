@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section {
+    background-color: aliceblue;
+    padding-top: 50px;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.date {
+    color: blue;
+    margin-left: 10px;
+    background-color: yellow;
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.title {
+    background-color: orange;
+    flex-grow: 1000;
+}

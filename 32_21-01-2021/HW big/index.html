@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW for weekend DOM</title>
+    <script src="./main.js" defer></script>
+    <style>
+        .userInfo h1 {
+            margin: 30px auto;
+            text-align: center;
+            font-family: sans-serif;
+            text-shadow: 2px 2px lightslategrey;
+        }
+        
+        .manyButtons {
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+        
+        h2 {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .inputBox {
+            margin-left: 20px;
+        }
+        
+        .colorSection {
+            margin-top: -12px;
+        }
+        
+        #calculateBox {
+            margin-left: 20px;
+        }
+        
+        .sum1 {
+            display: inline-block;
+            margin-bottom: 0px;
+            margin-left: 20px;
+        }
+        
+        .sumInput {
+            display: inline-block;
+        }
+        
+        .minus {
+            display: inline-block;
+            margin-bottom: 0px;
+            margin-left: 20px;
+        }
+        
+        .minusInput {
+            display: inline-block;
+        }
+        
+        .multiple {
+            display: inline-block;
+            margin-bottom: 0px;
+            margin-left: 20px;
+        }
+        
+        .multiInput {
+            display: inline-block;
+        }
+        
+        .divide {
+            display: inline-block;
+            margin-bottom: 0px;
+            margin-left: 20px;
+        }
+        
+        .divInput {
+            display: inline-block;
+        }
+        
+        .clickbox {
+            margin-left: 20px;
+        }
+        
+        .click_me {
+            width: 100px;
+            padding: 10px;
+            border: 2px;
+            border-radius: 8px;
+        }
+        
+        .clickCount {
+            margin-left: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="userInfo">
+        <h1>Andris Homework</h1>
+    </div>
+    <!--Task 1-->
+    <div class="manyButtons">
+        <div class="bnts_text">
+            <button class="btn_15" ">15px</button>
+            <button class="btn_25 ">25px</button>
+            <button class="btn_35 ">35px</button>
+        </div>
+        <div class="btns_colors ">
+            <button class="btn_red ">red</button>
+            <button class="btn_green ">green</button>
+            <button class="btn_blue ">blue</button>
+        </div>
+        <p class="text_first ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio rerum voluptates magnam pariatur, doloribus nostrum similique perspiciatis incidunt officiis nesciunt!</p>
+    </div>
+ <hr></hr>
+
+<!--Task 2-->
+<div class="inputBox ">
+<p>
+<input type="text " class="input " placeholder="font size ">
+<button class="setSize ">Set</button>
+</p>
+
+<p class="colorSection ">
+<input type="text " class="inputColor " placeholder="color ">
+<button class="setColor ">Set</button>
+</p>
+
+<p class="loremTwo ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus corrupti vel animi numquam, autem commodi?</p>
+</div>
+    <hr></hr>
+
+<!--Task 3 Calculator-->
+
+<div id="calculateBox ">
+<h2>Calculator</h2>
+<p class="sum1 ">
+<input type="text " class="sumA "> <span>&#43;</span> <input type="text " class="sumB "> <button class="add ">Add</button>
+</p>
+<p class="sumInput "></p> <br>
+
+<p class="minus ">
+<input type="text " class="minusA "> <span>&#8722;</span> <input type="text " class="minusB "> <button class="sub ">Sub</button>
+</p>
+<p class="minusInput "></p> <br>
+
+<p class="multiple ">
+<input type="text " class="multiA "> <span> * </span> <input type="text " class="multiB "> <button class="multi ">Multi</button>
+</p>
+<p class="multiInput "></p> <br>
+
+<p class="divide ">
+<input type="text " class="divA "> <span> / </span> <input type="text " class="divB "> <button class="div ">Div</button>
+</p>
+<p class="divInput "></p> <br>
+</div>
+
+<hr></hr>
+
+<!--Task 4 Count clicks-->
+
+    <div class="clickbox ">
+        <h2>Count</h2>
+        <button class="click_me ">Click me</button>
+        <p class="clickCount "></p>
+    </div>
+    <hr></hr>
+
+<!--Task 5 Palindrome-->
+
+<div class="palindrome ">
+<h2>Palindrome</h2>
+<p>
+<input type="text " class="inputPalindrome ">
+<button class="check ">Check</button>
+</p>
+<p class="resultPalindrome "></p>
+</div>
+
+</body>
+
+</html>

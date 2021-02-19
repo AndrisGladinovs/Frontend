@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap pictures with button</title>
+    <style>
+        .wrapper {
+            width: 800px;
+            margin: 0 auto;
+        }
+        
+        .gallery {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .gallery .item {
+            box-sizing: border-box;
+            position: relative;
+            display: none;
+            margin-bottom: 20px;
+        }
+        
+        .gallery .item:first-child {
+            display: block;
+        }
+        
+        #prevBtn {
+            width: 60px;
+            height: 35px;
+            padding: 8px;
+            border: 2px solid black;
+            border-radius: 8px;
+            background-color: lightgray;
+        }
+        
+        #prevBtn:hover {
+            background-color: lightgreen;
+            width: 65px;
+            height: 40px;
+            border: 3px solid black;
+        }
+        
+        #nextBtn {
+            width: 60px;
+            height: 35px;
+            padding: 8px;
+            margin-left: 20px;
+            border: 2px solid black;
+            border-radius: 8px;
+            background-color: lightgray;
+        }
+        
+        #nextBtn:hover {
+            background-color: lightgreen;
+            width: 65px;
+            height: 40px;
+            border: 3px solid black;
+        }
+    </style>
+    <script src="./swap.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="gallery">
+            <img class="item" src="./img/animals.jpg" alt="animals">
+            <img class="item" src="./img/bear.jpg" alt="bear">
+            <img class="item" src="./img/belka.jpg" alt="belka">
+            <img class="item" src="./img/birds.jpg" alt="birds">
+            <img class="item" src="./img/birdsMore.jpg" alt="birdsMore">
+            <img class="item" src="./img/fish.jpg" alt="fish">
+            <img class="item" src="./img/fishingB.jpg" alt="fishing">
+            <img class="item" src="./img/frogs.jpg" alt="frogs">
+            <button id="prevBtn">prev</button>
+            <button id="nextBtn">next</button>
+        </div>
+    </div>
+</body>
+
+</html>

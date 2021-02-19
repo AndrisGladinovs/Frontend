@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+p.intro {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+section .card {
+    float: left;
+    margin: 20px;
+    padding: 20px 10px;
+    width: calc(100% / 3 - 40px);
+    border: 1px solid black;
+}
+
+section .card p::first-line {
+    color: green;
+    font-weight: bolder;
+}
+
+section .card p::first-letter {
+    font-size: 24px;
+    font-style: italic;
+    color: red;
+}
+
+section p::selection {
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.blockquote {
+    margin-top: 40px;
+}
+
+.blockquote::before,
+.blockquote::after {
+    display: inline-block;
+    padding: 0;
+    content: '\AB';
+    font-size: 48px;
+    width: 40px;
+    height: 40px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    vertical-align: bottom;
+}
+
+.blockquote::after {
+    content: "\BB";
+    vertical-align: top;
+}
+
+.box {
+    margin-top: 40px;
+}
+
+p.box::before {
+    content: "This should show before the other content";
+    color: red;
+}

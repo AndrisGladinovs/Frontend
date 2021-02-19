@@ -1,0 +1,50 @@
+.box {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.square {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: green;
+}
+
+.title {
+    background-color: red;
+}
+
+.active {
+    font-size: 60px;
+}
+
+.black {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}

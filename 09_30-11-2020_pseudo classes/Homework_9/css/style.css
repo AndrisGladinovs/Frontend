@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(./../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.wrapper img {
+    width: 60px;
+    float: left;
+    margin: 20px auto;
+}
+
+nav {
+    background-color: transparent;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+    width: 150px;
+    align-content: right;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+ul li:hover {
+    background-color: goldenrod;
+}
+
+ul li ul {
+    position: absolute;
+    width: 150px;
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li ul li {
+    background-color: transparent;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+ul li ul li:hover {
+    background-color: rgb(99, 98, 98);
+}
+
+.fitclear {
+    clear: both;
+}
+
+h1 {
+    color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    width: 600px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    word-wrap: break-word;
+}
+
+#description {
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+button {
+    width: 400px;
+    font-size: 15px;
+    color: transparent;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button p {
+    display: inline-block;
+    margin-top: 18px;
+}
+
+#btn2 img {
+    width: 15px;
+}
+
+#btn1 {
+    background-color: goldenrod;
+    font-size: 15px;
+    color: white;
+    width: 180px;
+    float: left;
+    margin-left: 250px;
+    margin-right: 10px;
+    padding: 15px 20px;
+}
+
+#btn1:hover {
+    background: greenyellow;
+    color: white;
+    cursor: pointer;
+}
+
+#btn2 {
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    width: 180px;
+    padding: 1px 23px;
+}
+
+#btn2:hover {
+    background: greenyellow;
+    color: white;
+    cursor: pointer;
+}
+
+#message {
+    width: 50px;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 400px;
+    border: 1px solid white;
+    background-color: goldenrod;
+}
+
+#message:hover {
+    background: goldenrod;
+    color: white;
+    cursor: pointer;
+    border: 1px solid goldenrod;
+    padding: 10px 10px;
+    border-radius: 5px;
+}

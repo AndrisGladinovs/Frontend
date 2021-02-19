@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Table</title>
+</head>
+
+<body>
+    <h1 align="center">Forms / input etc</h1>
+    <h3>Simple text</h3>
+    <input type="text">
+    <h2 style="text-align: center; color: mediumblue;">Main types of forms</h2>
+    <form action="#" method="GET" align="center">
+        Name:
+        <input type="text" placeholder="John"> <br />
+        <br /> Surname: <input type="text" placeholder="Brown"> <br />
+        <br /> Age: <input type="number" max="110" min="0" step="1" value="10"> <br />
+        <br />Gender:
+        <input type="radio" value="male" name="gender"> male
+        <input type="radio" value="female" name="gender"> female
+        <br />
+        <br />
+        <input type="submit" value="send">
+        <br />
+        <br /><input type="range" max="300" min="0" step="5" name="myrange">
+        <br />
+        <input type="submit" value="send">
+        <br />
+        <br /> Email: <input type="email" name="youremail" placeholder="example@yahoo.com"> <br />
+        <br /> <input type="checkbox"> I accept terms & conditions
+        <br />
+        <br />
+        <input type="submit" value="send"> <br />
+
+        <br /> Car:<br />
+        <select name="car" id="">
+<option value=""></option>
+<option value="Volkswagen"> Volkswagen </option>
+<option value="BMW"> BMW </option>
+<option value="Daimler"> Daimler </option>
+        </select>
+        <br />
+        <br /> Color:
+        <input type="color">
+        <br />
+        <br /> Password: <input type="password">
+        <br />
+        <br /> Date:
+        <input type="date"> <br>
+        <br /> Message: <br />
+        <textarea name="" id="" cols="50" rows="10" placeholder="Your message"></textarea>
+    </form>
+
+    <form action="" method="GET"></form>
+    <form action="#" method="GET">
+        <fieldset align="center">
+            <legend>Contact</legend>
+
+            <p>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </p>
+
+            <p>
+                <label for="tel">Phone number</label>
+                <input type="tel" id="tel">
+            </p>
+
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </p>
+        </fieldset>
+        <br />
+        <input type="submit" value="send" ">
+        <input type="reset " value="clear ">
+    </form>
+</body>
+
+</html>

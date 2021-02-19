@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <script src="./simple.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <ul>
+                <li><a href="home" id="homeBtn" class="active">Home</a></li>
+                <li><a href="cart" id="cartBtn">Cart</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="products">
+            <div class="card">
+                <h2>Ericsson T20</h2>
+                <img src="./img/ericsson-t20s-1000x1000.jpg" alt="">
+                <h3>$70</h3>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <h2>Ericsson T65</h2>
+                <img src="./img/ericsson-t65-1000x1000.jpg" alt="">
+                <h3>$300</h3>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <h2>Nokia 5210</h2>
+                <img src="./img/nokia-5210-1000x1000.jpg" alt="">
+                <h3>$100</h3>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <h2>Nokia 6300</h2>
+                <img src="./img/nokia-6300-1000x1000.jpg" alt="">
+                <h3>$110</h3>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <h2>Nokia 6310i</h2>
+                <img src="./img/nokia-6310i-1000x1000.jpg" alt="">
+                <h3>$110</h3>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <h2>Nokia E5</h2>
+                <img src="./img/nokia-e5-1000x1000.jpg" alt="">
+                <h3>$100</h3>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <h2>Nokia E63</h2>
+                <img src="./img/nokia-e63-1000x1000.jpg" alt="">
+                <h3>$300</h3>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <h2>Siemens A50</h2>
+                <img src="./img/siemens-a50-1000x1000.jpg" alt="">
+                <h3>$80</h3>
+                <button>Add to cart</button>
+            </div>
+
+        </div>
+        <div class="cart">
+            <table>
+                <thead>
+                    <th class="title">title</th>
+                    <th class="price">price</th>
+                    <th class="count">count</th>
+                    <th class="total">total</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nokia 5210</td>
+                        <td>$100</td>
+                        <td>2</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <td>Ericsson T20</td>
+                        <td>$70</td>
+                        <td>3</td>
+                        <td>$210</td>
+                    </tr>
+                    <tr>
+                        <td>Nokia 6300</td>
+                        <td>$110</td>
+                        <td>1</td>
+                        <td>$110</td>
+                    </tr>
+                    <tr>
+                        <td>Siemens A50</td>
+                        <td>$80</td>
+                        <td>2</td>
+                        <td>$160</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="totalPrice">Total: $680</div>
+        </div>
+    </div>
+</body>
+
+</html>

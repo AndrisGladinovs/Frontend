@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif, Arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(182, 180, 180);
+    color: white;
+    padding-right: 110px;
+}
+
+.brand-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links {
+    padding-right: 40px;
+}
+
+.navbar-links li {
+    list-style-type: none;
+    width: 120px;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar-links li a:hover {
+    background-color: rgba(250, 163, 2, 0.699);
+}
+
+
+/* .toggle-button {
+    position: absolute;
+    top: 2.4rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 17px;
+}
+
+.toggle-button .bar {
+    height: 2px;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+}
+*/
+
+.container-fluid {
+    background-color: rgb(255, 217, 0);
+}
+
+.offer {
+    margin-left: 130px;
+    padding-top: 90px;
+}
+
+.offer_title h1 {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.offer h3 {
+    font-size: 20px;
+    color: rgb(63, 62, 62);
+    padding-bottom: 10px;
+    width: 380px;
+}
+
+.offer_text {
+    color: #777;
+    width: 400px;
+}
+
+
+/*.icons li {
+    width: 50px;
+    height: 30px;
+    list-style-type: none;
+}
+
+.icons li a {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+} */
+
+.icon_items {
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 150px;
+    list-style-type: none;
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1.5s;
+}
+
+.icon_items a {
+    color: black;
+    font-size: 42px;
+}
+
+.icon_items a:hover {
+    color: tomato;
+}
+
+#ipad {
+    padding-top: 50px;
+    padding-right: -30px;
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}

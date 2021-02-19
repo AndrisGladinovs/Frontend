@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: o;
+}
+
+body {
+    background-color: black;
+    color: rgb(196, 192, 192);
+}
+
+#menuToogle {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+#menuToogle a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+#menuToogle a:hover {
+    color: tomato;
+}
+
+#menuToogle input {
+    opacity: 0;
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    z-index: 2;
+}
+
+#menuToogle span {
+    width: 32px;
+    height: 4px;
+    margin-bottom: 5px;
+    display: block;
+    position: relative;
+    background-color: rgb(196, 194, 194);
+    border-radius: 3px;
+    z-index: 1;
+    transition: all 0.5s linear;
+    /*transition: transform 0.5s linear, background: 0.5s linear, opacity 0.55s linear; */
+}
+
+#menuToogle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg);
+    background-color: rgb(19, 18, 18);
+    transform-origin: 0% 0%;
+}
+
+#menuToogle input:checked~span:nth-child(3) {
+    display: none;
+}
+
+#menuToogle input:checked~span:nth-child(4) {
+    transform: rotate(-45deg);
+    transform-origin: 0% 100%;
+    margin: 18px 0 0;
+}
+
+#menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 125px 50px 50px;
+    background-color: white;
+    list-style-type: none;
+    left: -100%;
+    transition: all ls linear;
+}
+
+#menu li {
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+#menuToogle input:checked~ul {
+    left: 0px;
+}
